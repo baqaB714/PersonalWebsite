@@ -5308,3 +5308,16 @@ a.credit {
   .dir_ltr{
     direction: ltr !important;
   }
+
+  .font_size1{
+    font-size: 1rem;
+  }
+  .font_size2{
+    font-size: 1.5rem;
+  }
+  .pos_abs{
+    position: absolute !important;
+  }
+  .right_0{
+    right: 0;
+  }
