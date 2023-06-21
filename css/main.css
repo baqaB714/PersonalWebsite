@@ -7538,6 +7538,7 @@ Created using IcoMoon - icomoon.io
 
 .cc-reference .carousel-indicators li {
   background: #a5a3a3;
+  height: 8px;
 }
 
 .cc-reference .carousel-indicators .active {
@@ -7640,3 +7641,25 @@ a.credit {
 .bg_navyBlue{
   background: #111f29;
 }
+
+/* <------------color start----------------> */
+
+.btn-Purple {
+  color: white;
+  background-color: purple;
+  border-color: #ff07ff
+}
+
+.btn-Purple:hover {
+  color: white;
+  background-color: #c011c0;
+  border-color: #ff07ff
+}
+
+.btn-Purple.focus,
+.btn-Purple:focus {
+  box-shadow: 0 0 0 3px #c011c0
+}
+/* <------------color end----------------> */
+
+
