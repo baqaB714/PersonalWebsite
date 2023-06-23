@@ -7642,6 +7642,10 @@ a.credit {
   background: #111f29;
 }
 
+.rounded_1{
+  border-radius: 1rem !important
+}
+
 /* <------------color start----------------> */
 
 .btn-Purple {
