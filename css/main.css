@@ -7678,6 +7678,10 @@ a.credit {
   transition: all 500ms ease !important;
 }
 
+p{
+  text-align: justify;
+}
+
 /* <------------color start----------------> */
 
 .btn-Purple {
