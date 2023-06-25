@@ -1,6 +1,29 @@
 // Add your javascript here
 // Don't forget to add it into respective layouts where this js file is needed
 
+document.addEventListener('DOMContentLoaded', function () {
+
+  for (const elm of document.getElementsByClassName('pic_doc')) {
+    
+    elm.addEventListener('mouseover', (e) => {
+        e.target.classList.remove('scale_min')
+    }
+    )
+  }
+  for (const elm of document.getElementsByClassName('pic_doc')) {
+    
+    elm.addEventListener('mouseleave', (e) => {
+        e.target.classList.add('scale_min')
+    }
+    )
+  }
+
+})
+
+
+
+
+
 $(document).ready(function() {
   AOS.init( {
     // uncomment below for on-scroll animations to played only once

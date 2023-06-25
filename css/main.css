@@ -5838,7 +5838,7 @@ Created using IcoMoon - icomoon.io
     /* For Safari 5.1 to 6.0 */
     /* For Opera 11.1 to 12.0 */
     /* For Firefox 3.6 to 15 */
-    background: linear-gradient(black ,  rgb(215 , 215 , 20) );
+    background: linear-gradient(black, rgb(215, 215, 20));
     /* Standard syntax (must be last) */
     opacity: 0.76;
     filter: alpha(opacity=76);
@@ -7634,16 +7634,48 @@ a.credit {
   right: 0;
 }
 
-.bg-yellow{
+.bg-yellow {
   background: #949407;
 }
 
-.bg_navyBlue{
+.bg_navyBlue {
   background: #111f29;
 }
 
-.rounded_1{
+.rounded_1 {
   border-radius: 1rem !important
+}
+
+.zoom_img {
+  position: fixed !important;
+  width: 100% !important;
+  height: 100vh !important;
+  top: 1px;
+  z-index: 100;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.80);
+}
+
+.zoom_img img {
+  width: 48% !important;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 5rem;
+  margin: auto;
+}
+.zoom_img figcaption{
+  display: none;
+}
+
+.scale_min{
+  scale: 0.5;
+}
+
+.transition300{
+  transition: all 500ms ease !important;
 }
 
 /* <------------color start----------------> */
@@ -7664,6 +7696,5 @@ a.credit {
 .btn-Purple:focus {
   box-shadow: 0 0 0 3px #c011c0
 }
+
 /* <------------color end----------------> */
-
-
