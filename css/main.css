@@ -7682,6 +7682,10 @@ p{
   text-align: justify;
 }
 
+.bg_opacity_1{
+  background: rgba(255 , 255, 255, 0.88);
+}
+
 /* <------------color start----------------> */
 
 .btn-Purple {
