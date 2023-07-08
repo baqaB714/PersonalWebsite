@@ -7618,6 +7618,10 @@ a.credit {
   direction: ltr !important;
 }
 
+.dir_rtl{
+  direction: rtl !important;
+}
+
 .font_size1 {
   font-size: 1rem;
 }
@@ -7679,11 +7683,28 @@ a.credit {
 }
 
 p{
-  text-align: justify;
+    text-align: justify !important;
 }
 
 .bg_opacity_1{
   background: rgba(255 , 255, 255, 0.88);
+}
+
+#carousel_box{
+  direction: ltr;
+}
+#carousel_box *{
+  direction: ltr;
+}
+
+.box_shadow_1{
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 20px ;
+}
+
+/* owl edite */
+
+.owl-nav{
+  display: none !important;
 }
 
 /* <------------color start----------------> */

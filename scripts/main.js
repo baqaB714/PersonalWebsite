@@ -1,6 +1,25 @@
 // Add your javascript here
 // Don't forget to add it into respective layouts where this js file is needed
 
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    autoplay:true,
+    autoplaySpeed: 2000,
+    autoplayTimeout:12000,
+    autoplayHoverPause:true,
+    responsive:{
+        0:{
+            items:1
+        },
+    }
+});
+});
+
+
+
 document.addEventListener('DOMContentLoaded', function () {
 
   for (const elm of document.getElementsByClassName('pic_doc')) {
@@ -19,6 +38,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
 })
+
 
 
 
@@ -64,3 +84,5 @@ $('a.smooth-scroll')
       }
     }
   });
+
+  
