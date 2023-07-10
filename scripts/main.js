@@ -37,6 +37,17 @@ document.addEventListener('DOMContentLoaded', function () {
     )
   }
 
+  for (const elm of document.getElementsByClassName('nav-item')) {
+
+    elm.addEventListener('click', () => {
+      console.log(555);
+
+      document.getElementById('bg_imag').classList.remove('d-none')
+    }
+    )
+  }
+
+
 })
 
 
