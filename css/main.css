@@ -7630,6 +7630,14 @@ a.credit {
   font-size: 1.5rem;
 }
 
+.font_size3 {
+  font-size: 2rem;
+}
+
+.font_size4 {
+  font-size: 3rem;
+}
+
 .pos_abs {
   position: absolute !important;
 }
@@ -7714,7 +7722,16 @@ p {
   right: 0;
   justify-content: center;
   align-items: center;
-  transition: all 500ms ease;
+  transition: all 500ms;
+  overflow: auto;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.z_index999 {
+  z-index: 999
 }
 
 /* owl edite */
@@ -7743,3 +7760,26 @@ p {
 }
 
 /* <------------color end----------------> */
+
+#doc_prev {
+  content: "";
+  border: 10px solid #111f2963;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  scale: 1.5;
+  left: 0;
+  animation: pulsate 1s ease-out;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+#btn_close {
+  top: 2rem;
+  bottom: 0;
+  position: sticky !important;
+  -webkit-animation: pulsate 5s ease-out;
+  animation: pulsate 1s ease-out;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}

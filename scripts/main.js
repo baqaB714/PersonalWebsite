@@ -37,12 +37,25 @@ document.addEventListener('DOMContentLoaded', function () {
     )
   }
 
-  for (const elm of document.getElementsByClassName('nav-item')) {
+  for (const elm of document.getElementsByClassName('btn_doc')) {
 
     elm.addEventListener('click', () => {
       console.log(555);
 
       document.getElementById('bg_imag').classList.remove('d-none')
+    }
+    )
+  }
+
+  for (const elm of document.getElementsByClassName('btn_close')) {
+
+    elm.addEventListener('click', () => {
+      document.getElementById('bg_imag').classList.add('d-none')
+
+      for (const elm of document.getElementsByClassName('nav-link')) {
+
+        elm.classList.remove('active')
+      }
     }
     )
   }
