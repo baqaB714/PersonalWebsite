@@ -7759,6 +7759,13 @@ p {
   box-shadow: 0 0 0 3px #c011c0
 }
 
+.d_inlin_flex_center{
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+}
+
 /* <------------color end----------------> */
 
 #doc_prev {
